@@ -1,0 +1,25 @@
+bookmark =
+{
+	name = "THE_LAST_STAND"
+	desc = "THE_LAST_STAND_DESC"
+	date = 1446.06.05
+	
+	center = 112
+	default = yes
+	
+	country = TUR
+	country = CAS
+	country = POR	
+	country = FRA
+	country = ENG
+	country = HAB
+	country = BRA	
+	country = MAM
+	country = MOS
+	country = BUR
+	country = POL
+	
+	easy_country = CAS
+	easy_country = POR
+	easy_country = POL
+}

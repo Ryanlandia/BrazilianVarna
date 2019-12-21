@@ -1,0 +1,119 @@
+country_decisions = {
+
+	italic_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_italia_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			TAG = NAP
+			NOT = { exists = ITA }
+			NOT = { exists = ITC }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			culture_group = latin
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 121
+				province_id = 125
+				province_id = 1933
+				province_id = 112
+				province_id = 1774
+				province_id = 5017
+				province_id = 111
+				province_id = 108
+				province_id = 130
+				province_id = 136
+				province_id = 163
+				province_id = 126
+				
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = VEN }
+			adm_tech = 9
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 121
+			owns_core_province = 125
+			owns_core_province = 1933
+			owns_core_province = 112
+			owns_core_province = 1774
+			owns_core_province = 5017
+			owns_core_province = 111
+			owns_core_province = 108
+			owns_core_province = 130
+			owns_core_province = 136
+			owns_core_province = 163
+			owns_core_province = 126
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				emperor = {
+					add_opinion = {
+						who = root
+						modifier = opinion_left_empire
+					}
+				}
+				set_in_empire = no
+				emperor = {
+					country_event = { id = hre_event.5 }
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			change_tag = ITC
+			italy_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ITC
+			}
+			add_prestige = 25
+			ITC = {
+				set_capital = 121
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_italia_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
