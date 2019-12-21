@@ -1,0 +1,63 @@
+# Polish unions
+
+union = {
+	first = POL
+	second = HUN
+	start_date = 1440.5.15
+	end_date = 1821.1.1
+}
+
+union = {
+    first = POL
+	second = LIT
+	start_date = 1445.6.15
+	end_date = 1821.1.1
+}
+
+# Byzantium and vassals
+
+vassal = {
+    first = TUR
+	second = BYZ
+	start_date = 1422.9.1
+	end_date = 1445.1.20
+}
+
+vassal = {
+    first = BYZ
+	second = ATH
+	start_date = 1444.6.21
+	end_date = 1447.1.20
+}
+
+vassal = {
+    first = BYZ
+	second = MOE
+	start_date = 1443.10.1
+	end_date = 1447.1.20
+} 
+
+#Crimea and Theodoro
+
+vassal = {
+    first = GLH
+	second = CRI
+	start_date = 1441.1.1
+	end_date = 1478.5.21
+}
+
+vassal = {
+    first = GLH
+	second = FEO
+	start_date = 1444.11.11
+	end_date = 1474.6.5
+}
+
+#Saint Sava
+
+vassal = {
+    first = ARA
+	second = SSA
+	start_date = 1444.2.15
+	end_date = 1453.2.12
+}

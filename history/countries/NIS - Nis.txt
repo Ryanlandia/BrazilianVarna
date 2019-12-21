@@ -1,0 +1,10 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = serbian
+religion = orthodox
+technology_group = eastern
+capital = 3000
+historical_friend = BOS
+historical_friend = BUL
+
+

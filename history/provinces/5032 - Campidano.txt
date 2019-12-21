@@ -1,0 +1,24 @@
+#5032 - Campidano
+
+owner = ARA
+controller = ARA
+culture = venetian 
+religion = catholic 
+hre = no 
+base_tax = 6
+base_production = 5    
+trade_goods = grain
+base_manpower = 2
+capital = "Campidano" 
+is_city = yes 
+add_core = ARA
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+extra_cost = 8
+center_of_trade = 1
+
+
+
+

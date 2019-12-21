@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+religion = catholic
+primary_culture = neapolitan
+capital = 121 # Napoli
+
+1517.6.12 = {
+	monarch = {
+		name = "Ferrante I"
+		dynasty = "di Sancarlo"
+		birth_date = 1480.10.7
+		dip = 4
+		mil = 6
+		adm = 5
+	}		
+}
+
+1517.6.12 = {
+	heir = {
+		name = "Giuseppe"
+		monarch_name = "Giuseppe I"
+		dynasty = "di Sancarlo"
+		birth_date = 1506.7.21
+		claim = 50
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+1533.6.9 = {
+	monarch = { 
+		name = "Giuseppe I"
+		dynasty = "di Sancarlo"
+		dip = 3
+		mil = 2
+		adm = 4
+	}
+}
+

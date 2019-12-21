@@ -1,0 +1,24 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = serbian
+add_accepted_culture = croatian
+religion = catholic
+technology_group = eastern
+capital = 1831
+historical_friend = ARA
+
+1435.1.1 = {
+	government_rank = 1
+}
+
+1435.1.1 = {
+	monarch = {
+		name = "Stjepan Vukcic"
+		dynasty = "Kosaca"
+		birth_date = 1402.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+

@@ -1,0 +1,31 @@
+government = monarchy
+add_government_reform = mamluk_government
+primary_culture = al_misr_arabic
+add_accepted_culture = al_suryah_arabic
+religion = sunni
+technology_group = muslim
+historical_rival = VEN
+historical_rival = TIM
+capital = 361 # Cairo
+add_army_professionalism = 0.1
+religious_school = shafii_school
+
+1474.5.12 = {
+	monarch = {
+		name = "Qâ'itbay"
+		dynasty = "Burji"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1500.11.4 = {
+	monarch = {
+		name = "Qâ'itbay II"
+		dynasty = "Burji"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}

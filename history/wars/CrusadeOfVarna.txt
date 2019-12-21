@@ -1,0 +1,82 @@
+name = "Crusade of Varna"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1443.3.23 = {
+	add_attacker = PAP
+	add_attacker = POL
+	add_attacker = HUN
+	add_attacker = MOL
+	add_attacker = LIT
+	add_attacker = WAL
+	add_attacker = TEU
+	add_attacker = HAB
+	add_attacker = BOH
+	add_attacker = GEN
+	add_defender = TUR
+	add_attacker = KAR
+}
+
+1444.8.1 = {
+	rem_attacker = KAR
+}
+
+1444.11.10 = {
+	battle = {
+		name = "Varna"
+		location = 150
+		attacker = {
+			commander = "Wladyslaw III"	# Wladyslaw III
+			infantry = 18000
+			cavalry = 2000
+			losses = 60	# percent
+			country = POL
+		}
+		defender = {
+			commander = "Murad II"	# Murad II
+			infantry = 50000
+			cavalry = 10000
+			losses = 25	# percent
+			country = TUR
+		}
+		result = yes
+	}
+}
+
+1445.1.20 = {
+    add_attacker = BYZ
+	add_attacker = ATH
+	add_attacker = MOE
+	add_attacker = TRE
+	add_attacker = EPI
+}
+
+1446.6.5 = {
+    add_attacker = MAM
+} 
+
+1446.8.1 = {
+    add_attacker = KAR
+} 
+
+1447.1.20 = {
+    rem_attacker = PAP
+	rem_attacker = POL
+	rem_attacker = HUN
+	rem_attacker = MOL
+	rem_attacker = LIT
+	rem_attacker = WAL
+	rem_attacker = TEU
+	rem_attacker = HAB
+	rem_attacker = BOH
+	rem_attacker = GEN
+	rem_attacker = BYZ
+	rem_attacker = ATH
+	rem_attacker = MOE
+	rem_attacker = TRE
+	rem_attacker = EPI
+	rem_attacker = MAM
+	rem_attacker = KAR 
+	rem_defender = TUR
